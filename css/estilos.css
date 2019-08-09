@@ -1,0 +1,244 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+/*Variables */
+:root{
+  --green-color :#7acc2d;
+  --white-color : white;
+  --black-color: #313337;
+
+  /*Espaciado*/
+
+  --space: 10px;
+  /*Tipografia*/
+  --normal:12px;
+  /*Box Shadow*/
+
+  --box: 0px 0px 2px 1px #e6e5e9;
+
+}
+html,body{
+  padding:0px;
+  margin:0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+p, label{
+  font-size: var(--normal)
+  
+}
+
+label{
+  padding-bottom: 5px;
+}
+
+nav{
+
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--espace);
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+
+nav li a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+li a:hover {
+
+  color: var(--white-color);
+}
+
+
+/*------------------- main Section*/
+
+
+
+.main_section{
+  padding: 20%;
+  text-align: center;
+  
+}
+
+
+.products{
+  background-image: url('../images/curve.png');
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.product{
+  padding: var(--space);
+  margin-top: -250px;
+}
+
+.product .content{
+  background-color: var(--white-color);
+  padding: 15px;
+  margin: 20%;
+  box-shadow:  var(--box)
+}
+
+.image_content{
+    text-align: center;
+}
+
+.main_buttom{
+  background-color: var(--green-color);
+  width: 100%;
+  color: var(--white-color);
+  padding: var(--space);
+  font-size: 17px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+  
+}
+.modulo_pago .main_buttom{
+  background-color: var(--green-color);
+  width: 100%;
+  color: var(--white-color);
+  padding: var(--space);
+  font-size: 17px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: var(--space);
+}
+
+.main_buttom:hover{
+  background-color: #5e9e22;
+  cursor: pointer;
+}
+
+
+/*Offers*/
+
+.offers{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  margin-top:150px;
+}
+
+.offer_container{
+  
+  
+  margin: var(--space);
+  text-align: center;
+  width: 250px;
+}
+
+.offer_container p {
+  text-align: justify;
+}
+
+.offer_img{
+  height: 150px;
+}
+
+/*Mentions*/
+
+.text_mention{
+
+  margin-top: 80px;
+  text-align: center;
+}
+
+.mentions{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  
+}
+
+.mention_cards{
+  margin-left: 20px;
+}
+
+footer{
+  height: 60px;
+  background-color: #313337;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  font-size: var(--normal);
+  align-items: center;
+}
+footer p{
+  margin:5px;
+
+  color: var(--white-color)
+}
+
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow:  var(--box);
+  padding: var(--space);
+  
+
+}
+
+
+.data{
+  width: 100%;
+  margin-top: var(--space);
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.modulo_pago_images{
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.card{
+  border: 1px solid black;
+  margin-right: 50px;
+  max-width: 200px;
+}
+h3{
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

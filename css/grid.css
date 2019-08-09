@@ -1,0 +1,23 @@
+.wrapper {
+
+     padding: 10%;
+     display: grid;
+     
+     grid-template-columns: 450px 500px;
+     grid-row-gap: 180px;
+     grid-column-gap: 50px;
+
+
+}
+
+.item{
+     text-align: justify;
+     
+     
+}
+
+
+.container-grid{
+     display: grid;
+     grid-column: 50px 100px;
+}

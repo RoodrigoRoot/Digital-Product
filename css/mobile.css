@@ -1,0 +1,38 @@
+@media (max-width: 800px){
+    
+     .products{
+          display: inherit;
+          height: auto;
+
+     }
+
+     .product{
+     margin-top: 0rem;
+     }
+
+     section{
+          padding: 0;
+          margin: 0;
+     }
+
+     .main_section{
+          padding: 2%;
+     }
+
+     .offers{
+          display: inherit;
+          margin: 15%;
+     }
+     h2{
+          padding: 0;
+          margin: 0;
+     }
+
+     .mentions{
+          display: inherit;
+          margin: 15%;
+     }
+     .mentions p{
+          margin-bottom: 50px;
+     }
+}
